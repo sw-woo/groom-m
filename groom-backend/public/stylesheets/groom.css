@@ -1,0 +1,184 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f8ff; /* 하늘색 배경 */
+}
+
+header {
+	background-color: #87ceeb; /* 하늘색 */
+	color: white;
+	padding: 1em 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+header .logo {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+}
+
+nav ul li {
+	margin: 0 1em;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+main {
+	padding: 2em;
+	margin-top: 80px;
+}
+
+section {
+	margin-bottom: 2em;
+	padding: 2em;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+	color: #4682b4; /* 진한 하늘색 */
+	margin-bottom: 1em;
+}
+
+.hero {
+	text-align: center;
+	background-color: #fff;
+	padding: 2em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	margin-bottom: 2em;
+}
+
+.hero img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.hero .btn {
+	display: inline-block;
+	padding: 0.5em 1em;
+	background-color: #4682b4;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-top: 1em;
+}
+
+.portfolio,
+.about,
+.services,
+.contact {
+	text-align: center;
+}
+
+.cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 1em;
+}
+
+.card {
+	background-color: #fff;
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 300px;
+	text-align: left;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+
+.about img,
+.services img,
+.contact img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	margin-top: 1em;
+}
+
+footer {
+	background-color: #87ceeb; /* 하늘색 */
+	color: white;
+	text-align: center;
+	padding: 1em 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+form {
+	background-color: white;
+	padding: 2em;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+form label {
+	display: block;
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+form input,
+form textarea {
+	width: calc(100% - 20px);
+	padding: 0.5em;
+	margin-top: 0.5em;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+form textarea {
+	height: 100px;
+}
+
+form button {
+	background-color: #4682b4;
+	color: white;
+	border: none;
+	padding: 0.5em 1em;
+	margin-top: 1em;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+form button:hover {
+	background-color: #87ceeb;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	margin: 0.5em 0;
+}
